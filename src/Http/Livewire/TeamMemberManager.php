@@ -183,7 +183,7 @@ class TeamMemberManager extends Component
      * Remove the currently authenticated user from the team.
      *
      * @param  \Laravel\Jetstream\Contracts\RemovesTeamMembers  $remover
-     * @return \Illuminate\Routing\Redirector|\Illuminate\Http\RedirectResponse
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function leaveTeam(RemovesTeamMembers $remover)
     {
